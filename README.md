@@ -13,7 +13,7 @@ Halo! Saya seorang mahasiswa Sistem Informasi di UIN Imam Bonjol Padang. Saya me
 
 <br><br>
 
-### 🚀 Tech Stack & Tools
+###  Tech Stack & Tools
 <p align="center">
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
@@ -32,7 +32,7 @@ Halo! Saya seorang mahasiswa Sistem Informasi di UIN Imam Bonjol Padang. Saya me
 
 <br><br>
 
-### 📈 Statistik GitHub
+###  Statistik GitHub
 <p align="center">
   <!-- Badge Statistik yang Stabil -->
   <img src="https://img.shields.io/github/stars/Wahyuuu1128?style=for-the-badge&label=GitHub%20Stars&color=FFD700" alt="GitHub Stars"/>
@@ -48,7 +48,7 @@ Halo! Saya seorang mahasiswa Sistem Informasi di UIN Imam Bonjol Padang. Saya me
 
 <br><br>
 
-### 🤝 Mari Terhubung
+###  Mari Terhubung
 <p align="center">
   <a href="https://www.linkedin.com/in/wahyu-rahmat-ilahi-751553339/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
