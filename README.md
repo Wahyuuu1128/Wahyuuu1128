@@ -8,7 +8,7 @@
 
 <br><br>
 
-### 👨‍💻 Tentang Saya
+###  Tentang Saya
 Halo! Saya seorang mahasiswa Sistem Informasi di UIN Imam Bonjol Padang. Saya memiliki minat yang besar dalam dunia pengembangan aplikasi (Full-Stack) dan senang mengeksplorasi berbagai teknologi baru. Fokus saya saat ini adalah membangun sistem yang rapi, efisien, dan bermanfaat.
 
 <br><br>
