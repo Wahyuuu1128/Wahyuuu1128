@@ -56,6 +56,13 @@ Halo! Saya seorang mahasiswa Sistem Informasi di UIN Imam Bonjol Padang. Saya me
   <a href="https://www.instagram.com/wahyuuu1128_/" target="_blank">
     <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
   </a>
+  <a href="https://wahyurahmatilahi28.netlify.app" target="_blank">
+  <img src="https://img.shields.io/badge/Website_Portfolio-00C7B7?style=for-the-badge&logo=netlify&logoColor=white" alt="Portfolio" />
+</a>
+<a href="mailto:wahyurahmat561@gmail.com">
+  <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+</a>
+  
 </p>
 
 </div>
