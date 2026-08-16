@@ -1,10 +1,16 @@
 <div align="center">
 
-<!-- Header Banner Berwarna -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=250&section=header&text=Wahyu%20Rahmat%20Ilahi&fontSize=50&animation=fadeIn&fontAlignY=38&desc=Mahasiswa%20Sistem%20Informasi%20%7C%20Tech%20Enthusiast&descAlignY=51&descAlign=50" alt="Header Wahyu" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:020617,50:0f172a,100:111827&height=240&section=header&text=Wahyu%20Rahmat%20Ilahi&fontSize=46&fontColor=22c55e&fontAlignY=35&desc=~/developer/profile&descAlignY=53&descSize=18&descColor=86efac&animation=fadeIn" />
 
-<!-- Penghitung Pengunjung Profil -->
-<img src="https://komarev.com/ghpvc/?username=Wahyuuu1128&color=blueviolet&style=for-the-badge&label=PENGUNJUNG+PROFIL" alt="Profile Views" />
+<br>
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=17&duration=2500&pause=700&color=22C55E&center=true&vCenter=true&width=650&height=100&multiline=true&repeat=true&lines=%24+whoami+%E2%86%92+Wahyu+Rahmat+Ilahi;%24+role+%E2%86%92+Information+Systems+Student;%24+status+%E2%86%92+Building+Digital+Solutions_"/>
+
+<br>
+
+<img src="https://komarev.com/ghpvc/?username=Wahyuuu1128&style=for-the-badge&color=16a34a&label=VISITORS" />
+
+</div>
 
 <br><br>
 
