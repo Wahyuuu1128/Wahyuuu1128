@@ -1,5 +1,4 @@
 <div align="center">
-
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:020617,50:0f172a,100:111827&height=240&section=header&text=Wahyu%20Rahmat%20Ilahi&fontSize=46&fontColor=22c55e&fontAlignY=35&desc=~/developer/profile&descAlignY=53&descSize=18&descColor=86efac&animation=fadeIn" />
 
 <br>
