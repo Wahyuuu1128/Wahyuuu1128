@@ -1,0 +1,464 @@
+<svg
+  width="1200"
+  height="360"
+  viewBox="0 0 1200 360"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+
+  <defs>
+
+    <!-- Background -->
+    <linearGradient
+      id="background"
+      x1="0"
+      y1="0"
+      x2="1200"
+      y2="360"
+      gradientUnits="userSpaceOnUse"
+    >
+      <stop stop-color="#05070D"/>
+      <stop offset="0.45" stop-color="#0B1020"/>
+      <stop offset="1" stop-color="#080A12"/>
+    </linearGradient>
+
+    <!-- Neon Gradient -->
+    <linearGradient
+      id="neon"
+      x1="200"
+      y1="100"
+      x2="1000"
+      y2="260"
+      gradientUnits="userSpaceOnUse"
+    >
+      <stop stop-color="#58A6FF"/>
+      <stop offset="0.5" stop-color="#8B5CF6"/>
+      <stop offset="1" stop-color="#22D3EE"/>
+    </linearGradient>
+
+    <!-- Fire Gradient -->
+    <linearGradient
+      id="fire"
+      x1="0"
+      y1="0"
+      x2="0"
+      y2="1"
+    >
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="0.25" stop-color="#67E8F9"/>
+      <stop offset="0.55" stop-color="#8B5CF6"/>
+      <stop offset="1" stop-color="#2563EB"/>
+    </linearGradient>
+
+    <!-- Glow -->
+    <filter
+      id="glow"
+      x="-100%"
+      y="-100%"
+      width="300%"
+      height="300%"
+    >
+      <feGaussianBlur
+        stdDeviation="8"
+        result="blur"
+      />
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter
+      id="smallGlow"
+      x="-100%"
+      y="-100%"
+      width="300%"
+      height="300%"
+    >
+      <feGaussianBlur
+        stdDeviation="3"
+        result="blur"
+      />
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Grid -->
+    <pattern
+      id="grid"
+      width="60"
+      height="60"
+      patternUnits="userSpaceOnUse"
+    >
+      <path
+        d="M60 0H0V60"
+        stroke="#58A6FF"
+        stroke-opacity="0.06"
+        stroke-width="1"
+      />
+    </pattern>
+
+    <!-- Animated Fire Path -->
+    <path
+      id="energyPath"
+      d="M-100 300
+         C80 210 130 330 260 255
+         C390 180 440 320 560 235
+         C680 150 760 310 890 220
+         C1010 135 1080 250 1300 150"
+      fill="none"
+    />
+
+  </defs>
+
+
+  <!-- ================================= -->
+  <!-- BACKGROUND -->
+  <!-- ================================= -->
+
+  <rect
+    width="1200"
+    height="360"
+    rx="24"
+    fill="url(#background)"
+  />
+
+  <rect
+    width="1200"
+    height="360"
+    rx="24"
+    fill="url(#grid)"
+  />
+
+
+  <!-- ================================= -->
+  <!-- AMBIENT LIGHT -->
+  <!-- ================================= -->
+
+  <ellipse
+    cx="600"
+    cy="180"
+    rx="440"
+    ry="140"
+    fill="#2563EB"
+    opacity="0.06"
+  />
+
+  <ellipse
+    cx="600"
+    cy="200"
+    rx="260"
+    ry="100"
+    fill="#8B5CF6"
+    opacity="0.05"
+  />
+
+
+  <!-- ================================= -->
+  <!-- TOP ENERGY LINE -->
+  <!-- ================================= -->
+
+  <path
+    d="M80 65
+       C220 40 300 80 420 55
+       C540 30 650 80 780 52
+       C900 25 1000 70 1120 48"
+    stroke="url(#neon)"
+    stroke-width="1.5"
+    opacity="0.55"
+    fill="none"
+  />
+
+  <path
+    d="M80 65
+       C220 40 300 80 420 55
+       C540 30 650 80 780 52
+       C900 25 1000 70 1120 48"
+    stroke="#58A6FF"
+    stroke-width="5"
+    opacity="0.08"
+    filter="url(#glow)"
+    fill="none"
+  />
+
+
+  <!-- ================================= -->
+  <!-- ANIMATED ENERGY / FIRE -->
+  <!-- ================================= -->
+
+  <g
+    fill="none"
+    stroke="url(#fire)"
+    stroke-linecap="round"
+    filter="url(#smallGlow)"
+  >
+
+    <use
+      href="#energyPath"
+      stroke-width="2"
+      opacity="0.75"
+    >
+      <animate
+        attributeName="stroke-dasharray"
+        values="30 120;120 30;30 120"
+        dur="3s"
+        repeatCount="indefinite"
+      />
+
+      <animate
+        attributeName="stroke-dashoffset"
+        values="0;-300;0"
+        dur="4s"
+        repeatCount="indefinite"
+      />
+    </use>
+
+    <use
+      href="#energyPath"
+      stroke-width="1"
+      opacity="0.45"
+    >
+      <animate
+        attributeName="stroke-dasharray"
+        values="15 180;100 60;15 180"
+        dur="2.5s"
+        repeatCount="indefinite"
+      />
+
+      <animate
+        attributeName="stroke-dashoffset"
+        values="100;-250;100"
+        dur="5s"
+        repeatCount="indefinite"
+      />
+    </use>
+
+  </g>
+
+
+  <!-- ================================= -->
+  <!-- FLOATING ENERGY PARTICLES -->
+  <!-- ================================= -->
+
+  <g fill="#58A6FF">
+
+    <circle cx="120" cy="220" r="2">
+      <animate
+        attributeName="cy"
+        values="220;205;220"
+        dur="2.4s"
+        repeatCount="indefinite"
+      />
+      <animate
+        attributeName="opacity"
+        values="0.15;1;0.15"
+        dur="2.4s"
+        repeatCount="indefinite"
+      />
+    </circle>
+
+    <circle cx="210" cy="285" r="1.8">
+      <animate
+        attributeName="cy"
+        values="285;265;285"
+        dur="2.8s"
+        repeatCount="indefinite"
+      />
+      <animate
+        attributeName="opacity"
+        values="0.2;0.9;0.2"
+        dur="2.8s"
+        repeatCount="indefinite"
+      />
+    </circle>
+
+    <circle cx="340" cy="115" r="1.5">
+      <animate
+        attributeName="cy"
+        values="115;95;115"
+        dur="2s"
+        repeatCount="indefinite"
+      />
+      <animate
+        attributeName="opacity"
+        values="0.1;0.8;0.1"
+        dur="2s"
+        repeatCount="indefinite"
+      />
+    </circle>
+
+    <circle cx="860" cy="105" r="1.8">
+      <animate
+        attributeName="cy"
+        values="105;82;105"
+        dur="2.7s"
+        repeatCount="indefinite"
+      />
+      <animate
+        attributeName="opacity"
+        values="0.15;1;0.15"
+        dur="2.7s"
+        repeatCount="indefinite"
+      />
+    </circle>
+
+    <circle cx="1000" cy="250" r="2">
+      <animate
+        attributeName="cy"
+        values="250;225;250"
+        dur="2.2s"
+        repeatCount="indefinite"
+      />
+      <animate
+        attributeName="opacity"
+        values="0.15;1;0.15"
+        dur="2.2s"
+        repeatCount="indefinite"
+      />
+    </circle>
+
+    <circle cx="1080" cy="165" r="1.5">
+      <animate
+        attributeName="cy"
+        values="165;145;165"
+        dur="2.5s"
+        repeatCount="indefinite"
+      />
+      <animate
+        attributeName="opacity"
+        values="0.1;0.8;0.1"
+        dur="2.5s"
+        repeatCount="indefinite"
+      />
+    </circle>
+
+  </g>
+
+
+  <!-- ================================= -->
+  <!-- CENTER GLOW -->
+  <!-- ================================= -->
+
+  <circle
+    cx="600"
+    cy="165"
+    r="80"
+    fill="#58A6FF"
+    opacity="0.025"
+  >
+    <animate
+      attributeName="r"
+      values="70;100;70"
+      dur="4s"
+      repeatCount="indefinite"
+    />
+
+    <animate
+      attributeName="opacity"
+      values="0.02;0.06;0.02"
+      dur="4s"
+      repeatCount="indefinite"
+    />
+  </circle>
+
+
+  <!-- ================================= -->
+  <!-- NAME -->
+  <!-- ================================= -->
+
+  <text
+    x="600"
+    y="160"
+    text-anchor="middle"
+    font-family="Inter,Segoe UI,Arial,sans-serif"
+    font-size="46"
+    font-weight="700"
+    letter-spacing="-1"
+    fill="url(#neon)"
+    filter="url(#smallGlow)"
+  >
+    Wahyu Rahmat Ilahi
+  </text>
+
+
+  <!-- ================================= -->
+  <!-- SUBTITLE -->
+  <!-- ================================= -->
+
+  <text
+    x="600"
+    y="195"
+    text-anchor="middle"
+    font-family="Inter,Segoe UI,Arial,sans-serif"
+    font-size="13"
+    font-weight="500"
+    letter-spacing="3"
+    fill="#A5B4FC"
+  >
+    INFORMATION SYSTEMS • FULLSTACK DEVELOPER • DATA • AI • DATA ANALYST
+  </text>
+
+
+  <!-- ================================= -->
+  <!-- BOTTOM ENERGY LINE -->
+  <!-- ================================= -->
+
+  <path
+    d="M80 315
+       C220 340 320 300 430 322
+       C560 345 650 300 770 325
+       C900 350 1000 305 1120 320"
+    stroke="url(#neon)"
+    stroke-width="1.5"
+    opacity="0.55"
+    fill="none"
+  />
+
+  <path
+    d="M80 315
+       C220 340 320 300 430 322
+       C560 345 650 300 770 325
+       C900 350 1000 305 1120 320"
+    stroke="#8B5CF6"
+    stroke-width="5"
+    opacity="0.08"
+    filter="url(#glow)"
+    fill="none"
+  />
+
+
+  <!-- ================================= -->
+  <!-- CORNER DETAILS -->
+  <!-- ================================= -->
+
+  <circle
+    cx="80"
+    cy="65"
+    r="3"
+    fill="#58A6FF"
+  />
+
+  <circle
+    cx="1120"
+    cy="48"
+    r="3"
+    fill="#22D3EE"
+  />
+
+  <circle
+    cx="80"
+    cy="315"
+    r="3"
+    fill="#8B5CF6"
+  />
+
+  <circle
+    cx="1120"
+    cy="320"
+    r="3"
+    fill="#58A6FF"
+  />
+
+</svg>
