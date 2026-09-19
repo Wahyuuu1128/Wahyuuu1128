@@ -319,20 +319,85 @@ Halo! Saya seorang mahasiswa Sistem Informasi di UIN Imam Bonjol Padang. Saya me
 
 </div>
 
-###  Statistik GitHub
-<p align="center">
-  <!-- Badge Statistik yang Stabil -->
-  <img src="https://img.shields.io/github/stars/Wahyuuu1128?style=for-the-badge&label=GitHub%20Stars&color=FFD700" alt="GitHub Stars"/>
-  <img src="https://img.shields.io/github/followers/Wahyuuu1128?style=for-the-badge&label=Followers&color=4169E1" alt="Followers"/>
+<!-- ========================================= -->
+<!-- GITHUB STATISTICS -->
+<!-- ========================================= -->
+
+<div align="center">
+
+<br>
+<br>
+
+<h2>GitHub Statistics</h2>
+
+<p>
+  <sub>
+    A glimpse into my coding activity, contributions, and development journey.
+  </sub>
 </p>
 
-<p align="center">
-  <!-- Menampilkan rentetan hari produktif ngoding -->
-  <a href="https://github.com/Wahyuuu1128">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=Wahyuuu1128&theme=tokyonight&hide_border=true&background=0d1117" alt="GitHub Streak" />
-  </a>
-</p>
+<br>
 
+<!-- ========================================= -->
+<!-- STATS CARDS -->
+<!-- ========================================= -->
+
+<table align="center" border="0" cellspacing="0" cellpadding="0">
+<tr>
+
+<!-- GitHub Stats -->
+
+<td align="center" width="50%">
+
+<img
+  src="https://github-readme-stats.vercel.app/api?username=Wahyuuu1128&show_icons=true&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=8B5CF6&text_color=C9D1D9&ring_color=58A6FF&include_all_commits=true&count_private=true"
+  alt="Wahyu's GitHub Statistics"
+/>
+
+</td>
+
+<!-- Top Languages -->
+
+<td align="center" width="50%">
+
+<img
+  src="https://github-readme-stats.vercel.app/api/top-langs/?username=Wahyuuu1128&layout=compact&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&langs_count=8"
+  alt="Wahyu's Top Languages"
+/>
+
+</td>
+
+</tr>
+</table>
+
+<br>
+<br>
+
+<!-- ========================================= -->
+<!-- GITHUB STREAK -->
+<!-- ========================================= -->
+
+<img
+  src="https://github-readme-streak-stats.herokuapp.com/?user=Wahyuuu1128&hide_border=true&background=0D1117&ring=58A6FF&fire=8B5CF6&currStreakLabel=58A6FF&sideLabels=C9D1D9&currStreakNum=F0F6FC&sideNums=F0F6FC&dates=8B949E"
+  alt="Wahyu's GitHub Streak"
+/>
+
+<br>
+<br>
+
+<!-- ========================================= -->
+<!-- ACTIVITY BADGES -->
+<!-- ========================================= -->
+
+<img
+  src="https://komarev.com/ghpvc/?username=Wahyuuu1128&style=for-the-badge&color=58A6FF&label=PROFILE+VIEWS"
+  alt="Profile Views"
+/>
+
+<br>
+<br>
+
+</div>
 <br><br>
 
 ###  Mari Terhubung
