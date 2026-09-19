@@ -84,37 +84,240 @@ Halo! Saya seorang mahasiswa Sistem Informasi di UIN Imam Bonjol Padang. Saya me
 
 <br><br>
 
-###  Tech Stack & Tools
+<!-- ========================================= -->
+<!-- TECH STACK & TOOLS -->
+<!-- ========================================= -->
 
-**Frontend** <br>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="HTML5" title="HTML5" /> &nbsp;
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="CSS3" title="CSS3" /> &nbsp;
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="JavaScript" title="JavaScript" /> &nbsp;
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" height="40" alt="Bootstrap" title="Bootstrap" /> &nbsp;
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" height="40" alt="Tailwind CSS" title="Tailwind CSS" /> &nbsp;
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" height="40" alt="Vue.js" title="Vue.js" />
+<div align="center">
+
+<br>
+
+<h2>Tech Stack & Tools</h2>
+
+<p>
+  <sub>
+    Technologies and tools I use across development, data, AI, and cloud.
+  </sub>
+</p>
+
+<br>
+
+
+<!-- ========================================= -->
+<!-- FRONTEND -->
+<!-- ========================================= -->
+
+<h3>Frontend</h3>
+
+<table align="center" border="0" cellspacing="0" cellpadding="0">
+<tr>
+
+<td align="center" style="padding: 0 8px;">
+  <img
+    src="https://skillicons.dev/icons?i=html&theme=dark"
+    width="52"
+    alt="HTML5"
+  />
+</td>
+
+<td align="center" style="padding: 0 8px;">
+  <img
+    src="https://skillicons.dev/icons?i=css&theme=dark"
+    width="52"
+    alt="CSS3"
+  />
+</td>
+
+<td align="center" style="padding: 0 8px;">
+  <img
+    src="https://skillicons.dev/icons?i=js&theme=dark"
+    width="52"
+    alt="JavaScript"
+  />
+</td>
+
+<td align="center" style="padding: 0 8px;">
+  <img
+    src="https://skillicons.dev/icons?i=bootstrap&theme=dark"
+    width="52"
+    alt="Bootstrap"
+  />
+</td>
+
+<td align="center" style="padding: 0 8px;">
+  <img
+    src="https://skillicons.dev/icons?i=tailwind&theme=dark"
+    width="52"
+    alt="Tailwind CSS"
+  />
+</td>
+
+<td align="center" style="padding: 0 8px;">
+  <img
+    src="https://skillicons.dev/icons?i=vue&theme=dark"
+    width="52"
+    alt="Vue.js"
+  />
+</td>
+
+</tr>
+</table>
+
 <br><br>
 
-**Backend & Frameworks** <br>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" height="40" alt="PHP" title="PHP" /> &nbsp;
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg" height="40" alt="Laravel" title="Laravel" /> &nbsp;
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/codeigniter/codeigniter-plain.svg" height="40" alt="CodeIgniter" title="CodeIgniter" /> &nbsp;
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="Python" title="Python" /> &nbsp;
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" height="40" alt="Flask" title="Flask" />
+
+<!-- ========================================= -->
+<!-- BACKEND & FRAMEWORKS -->
+<!-- ========================================= -->
+
+<h3>Backend & Frameworks</h3>
+
+<table align="center" border="0" cellspacing="0" cellpadding="0">
+<tr>
+
+<td align="center" style="padding: 0 8px;">
+  <img
+    src="https://skillicons.dev/icons?i=php&theme=dark"
+    width="52"
+    alt="PHP"
+  />
+</td>
+
+<td align="center" style="padding: 0 8px;">
+  <img
+    src="https://skillicons.dev/icons?i=laravel&theme=dark"
+    width="52"
+    alt="Laravel"
+  />
+</td>
+
+<td align="center" style="padding: 0 8px;">
+  <img
+    src="https://cdn.simpleicons.org/codeigniter/EF4223"
+    width="52"
+    height="52"
+    alt="CodeIgniter"
+  />
+</td>
+
+<td align="center" style="padding: 0 8px;">
+  <img
+    src="https://skillicons.dev/icons?i=python&theme=dark"
+    width="52"
+    alt="Python"
+  />
+</td>
+
+<td align="center" style="padding: 0 8px;">
+  <img
+    src="https://skillicons.dev/icons?i=flask&theme=dark"
+    width="52"
+    alt="Flask"
+  />
+</td>
+
+</tr>
+</table>
+
 <br><br>
 
-**Database** <br>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="40" alt="MySQL" title="MySQL" /> &nbsp;
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" height="40" alt="SQLite" title="SQLite" />
+
+<!-- ========================================= -->
+<!-- DATABASE -->
+<!-- ========================================= -->
+
+<h3>Database</h3>
+
+<table align="center" border="0" cellspacing="0" cellpadding="0">
+<tr>
+
+<td align="center" style="padding: 0 8px;">
+  <img
+    src="https://skillicons.dev/icons?i=mysql&theme=dark"
+    width="52"
+    alt="MySQL"
+  />
+</td>
+
+<td align="center" style="padding: 0 8px;">
+  <img
+    src="https://skillicons.dev/icons?i=sqlite&theme=dark"
+    width="52"
+    alt="SQLite"
+  />
+</td>
+
+</tr>
+</table>
+
 <br><br>
 
-**Mobile, Tools & Cloud** <br>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" height="40" alt="Flutter" title="Flutter" /> &nbsp;
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="40" alt="Git" title="Git" /> &nbsp;
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="40" alt="VS Code" title="VS Code" /> &nbsp;
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" height="40" alt="Figma" title="Figma" /> &nbsp;
-<img src="https://cdn.simpleicons.org/googlecolab/F9AB00" height="40" alt="Google Colab" title="Google Colab" /> &nbsp;
-<img src="https://cdn.simpleicons.org/google/4285F4" height="40" alt="Apps Script" title="Apps Script" /><br><br>
+
+<!-- ========================================= -->
+<!-- MOBILE, TOOLS & CLOUD -->
+<!-- ========================================= -->
+
+<h3>Mobile, Tools & Cloud</h3>
+
+<table align="center" border="0" cellspacing="0" cellpadding="0">
+<tr>
+
+<td align="center" style="padding: 0 8px;">
+  <img
+    src="https://skillicons.dev/icons?i=flutter&theme=dark"
+    width="52"
+    alt="Flutter"
+  />
+</td>
+
+<td align="center" style="padding: 0 8px;">
+  <img
+    src="https://skillicons.dev/icons?i=git&theme=dark"
+    width="52"
+    alt="Git"
+  />
+</td>
+
+<td align="center" style="padding: 0 8px;">
+  <img
+    src="https://skillicons.dev/icons?i=vscode&theme=dark"
+    width="52"
+    alt="Visual Studio Code"
+  />
+</td>
+
+<td align="center" style="padding: 0 8px;">
+  <img
+    src="https://skillicons.dev/icons?i=figma&theme=dark"
+    width="52"
+    alt="Figma"
+  />
+</td>
+
+<td align="center" style="padding: 0 8px;">
+  <img
+    src="https://cdn.simpleicons.org/googlecolab/F9AB00"
+    width="52"
+    height="52"
+    alt="Google Colab"
+  />
+</td>
+
+<td align="center" style="padding: 0 8px;">
+  <img
+    src="https://cdn.simpleicons.org/googleappsscript/4285F4"
+    width="52"
+    height="52"
+    alt="Google Apps Script"
+  />
+</td>
+
+</tr>
+</table>
+
+<br><br>
+
+</div>
 
 ###  Statistik GitHub
 <p align="center">
