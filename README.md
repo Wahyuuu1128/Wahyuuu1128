@@ -1,17 +1,82 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:020617,50:0f172a,100:111827&height=240&section=header&text=Wahyu%20Rahmat%20Ilahi&fontSize=46&fontColor=22c55e&fontAlignY=35&desc=~/developer/profile&descAlignY=53&descSize=18&descColor=86efac&animation=fadeIn" />
+<!-- ========================================= -->
+<!-- HERO -->
+<!-- ========================================= -->
+
+<img
+  src="./.github/assets/hero.svg"
+  width="100%"
+  alt="Wahyu Rahmat Ilahi - Information Systems Student, Backend Developer, Cloud and AI"
+/>
 
 <br>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=17&duration=2500&pause=700&color=22C55E&center=true&vCenter=true&width=650&height=100&multiline=true&repeat=true&lines=%24+whoami+%E2%86%92+Wahyu+Rahmat+Ilahi;%24+role+%E2%86%92+Information+Systems+Student;%24+status+%E2%86%92+Building+Digital+Solutions_"/>
+<p align="center">
+  <strong>
+    Building practical digital solutions with modern technologies.
+  </strong>
+</p>
 
 <br>
 
-<img src="https://komarev.com/ghpvc/?username=Wahyuuu1128&style=for-the-badge&color=16a34a&label=VISITORS" />
+<!-- ========================================= -->
+<!-- SOCIAL LINKS -->
+<!-- ========================================= -->
+
+<p align="center">
+
+<a href="https://wahyurahmatilahi28.netlify.app">
+  <img
+    src="https://img.shields.io/badge/Portfolio-111827?style=for-the-badge&logo=googlechrome&logoColor=58A6FF&labelColor=0B1020"
+    alt="Portfolio"
+  />
+</a>
+
+<a href="https://www.linkedin.com/in/wahyu-rahmat-ilahi-751553339/">
+  <img
+    src="https://img.shields.io/badge/LinkedIn-111827?style=for-the-badge&logo=linkedin&logoColor=58A6FF&labelColor=0B1020"
+    alt="LinkedIn"
+  />
+</a>
+
+<a href="mailto:wahyurahmat561@gmail.com">
+  <img
+    src="https://img.shields.io/badge/Email-111827?style=for-the-badge&logo=gmail&logoColor=22D3EE&labelColor=0B1020"
+    alt="Email"
+  />
+</a>
+
+</p>
+
+<br>
+
+<!-- ========================================= -->
+<!-- PROFILE VIEWS -->
+<!-- ========================================= -->
+
+<p align="center">
+
+<img
+  src="https://komarev.com/ghpvc/?username=Wahyuuu1128&style=for-the-badge&color=58A6FF&label=PROFILE+VIEWS"
+  alt="Profile Views"
+/>
+
+</p>
 
 </div>
 
+<br>
+
+---
+
+### About Me
+
+Halo! Saya mahasiswa **Sistem Informasi di UIN Imam Bonjol Padang** dengan ketertarikan pada pengembangan aplikasi, backend engineering, cloud computing, dan penerapan Generative AI.
+
+Saya senang membangun solusi digital yang tidak hanya berfungsi, tetapi juga memiliki arsitektur yang terstruktur, antarmuka yang modern, dan pengalaman pengguna yang baik.
+
+<br>
 <br><br>
 
 ###  Tentang Saya
